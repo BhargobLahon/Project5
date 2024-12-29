@@ -13,6 +13,9 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
+  "engines": {
+      "node": "16.x"
+    },
   "scripts": {
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "build": "react-scripts build",
@@ -31,9 +34,7 @@
       "not dead",
       "not op_mini all"
     ],
-    "engines": {
-      "node": "16.x"
-    },
+    
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
